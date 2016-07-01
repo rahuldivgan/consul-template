@@ -1,3 +1,25 @@
+```
+# cat /etc/rexray/config.yml
+rexray:
+  storageDrivers:
+  - openstack
+openstack:
+  authUrl: https://us-internal-1.cloud.cisco.com:5000/v2.0
+  username: *****
+  password: *****
+  tenantName: *****
+  regionName: *****
+  availabilityZoneName: alln01-1-csi
+  ```
+
+
+
+
+
+
+
+
+
 Consul Template
 ===============
 [![Latest Version](http://img.shields.io/github/release/hashicorp/consul-template.svg?style=flat-square)][release]
